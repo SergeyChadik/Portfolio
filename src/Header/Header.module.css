@@ -1,0 +1,17 @@
+.header__container {
+	min-height: 80px;
+	background: #22242a;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.header__nav {
+	width: 80%;
+	display: flex;
+	min-height: 100%;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 0 auto;
+}

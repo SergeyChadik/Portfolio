@@ -1,0 +1,26 @@
+.worksContainer {
+	width: 400px;
+	height: 100%;
+	border: 1px solid #1bffff;
+	border-radius: 5px;
+
+	margin: 10px 0px 10px 0px;
+	background-color: #252527;
+
+}
+
+
+
+.image {
+	width: 100%;
+	height: 100px;
+	background-color: rgb(72, 245, 81);
+}
+
+.titleDiscription {
+	padding: 10px;
+	color: #FFFFFF;
+}
+.titleDiscription span {
+	color: #C6C0C0;
+}

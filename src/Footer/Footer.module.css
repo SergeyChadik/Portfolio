@@ -1,0 +1,30 @@
+.footer {
+	height: 200px;
+	background-color: #11a8a8;
+	margin: 0 auto;
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.footer h2 {
+	font-weight: 300;
+	letter-spacing: 5px;
+}
+.footerLinks {
+	margin: 10px 0px 10px 0px;
+}
+.footerLinks a {
+	padding: 0px 5px 0px 5px;
+	margin: 5px;
+	text-decoration: none;
+	color: white;
+}
+.footerLinks a:hover {
+	color: #1bffff;
+}
+
+

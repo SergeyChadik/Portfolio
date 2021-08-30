@@ -1,0 +1,40 @@
+.myWorks {
+	min-height: 800px;
+	background-color: #22242aea;
+
+}
+
+.myWorksContainer {
+	
+}
+
+.title {
+	text-align: center;
+	display: flex;
+	color: white;
+	//background-color: yellow;
+	letter-spacing: 1px;
+	font-size: 32px;
+	padding-top: 80px;
+	//margin-top: 80px;
+	margin-bottom: 40px;
+	flex-direction: column;
+	font-weight: 300;
+}
+
+.title::after {
+	content: "";
+	background: #1bffff;
+	width: 55px;
+	height: 1px;
+	margin: 15px auto;
+}
+
+.aroundWorks {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+	box-sizing: border-box;
+	//margin: 20px;
+}

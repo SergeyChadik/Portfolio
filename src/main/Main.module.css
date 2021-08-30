@@ -1,0 +1,44 @@
+.mainBlock {
+	height: 100vh;
+	background-color: #22242a;
+	background: url("../images/bg.jpg") 0 0 / cover no-repeat;
+}
+
+.text {
+	width: 500px;
+	color: #FFFFFF;
+	//background-color: white;
+
+
+}
+.text span {
+	font-size: 20px;
+}
+
+.text h1 {
+	font-size: 50px;
+	padding: 5px 0px 10px 0px;
+}
+.text h1 span {
+	font-size: 50px;
+	border-bottom: 4px solid #1bffff ;
+}
+
+.text p {
+	font-weight: lighter;
+	font-size: 30px;
+}
+.photo {
+	max-width: 344px;
+	height: 430px;
+	border: 3px solid #1bffff;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.photo img {
+	width: 344px;
+	height: 430px;
+
+	object-fit: cover;
+}

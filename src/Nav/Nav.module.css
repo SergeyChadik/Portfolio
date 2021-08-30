@@ -1,0 +1,28 @@
+.nav {
+	font-family: Arial;
+	font-weight: 300;
+	width: 400px;
+	min-height: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+	.nav {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.nav a {
+		margin: 4px;
+	}
+}
+.nav a {
+	color: rgb(226, 226, 226);
+	text-decoration: none;
+	letter-spacing: 3px;
+	padding: 0px 5px 0px 5px;
+	font-weight: lighter;
+}
