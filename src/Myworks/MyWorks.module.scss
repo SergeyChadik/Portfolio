@@ -1,17 +1,28 @@
+@import '../../src/common/styles/sass/variables';
+
+
+
 .myWorks {
 	min-height: 800px;
-	background-color: #22242aea;
+	background-color: $bgSecondColor;
+	.myWorksContainer {
+		width: 80%;
+	}
+	.aroundWorks {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		box-sizing: border-box;
+	}
 
 }
 
-.myWorksContainer {
-	
-}
+
 
 .title {
 	text-align: center;
 	display: flex;
-	color: white;
+	color: $textColor;
 	//background-color: yellow;
 	letter-spacing: 1px;
 	font-size: 32px;
@@ -24,17 +35,10 @@
 
 .title::after {
 	content: "";
-	background: #1bffff;
+	background: $primaryColor;
 	width: 55px;
 	height: 1px;
 	margin: 15px auto;
 }
 
-.aroundWorks {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	
-	box-sizing: border-box;
-	//margin: 20px;
-}
+

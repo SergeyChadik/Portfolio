@@ -17,7 +17,6 @@ function App() {
 			<MyWorks />
 			<Email />
 			<Footer />
-
 		</div>
 	);
 }

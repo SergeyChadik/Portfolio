@@ -11,7 +11,12 @@
 	border-radius: 5px;
 	padding: 10px;
 }
-
+h3 {
+	color: white;
+}
+.discription {
+	color: #C6C0C0;
+}
 .icon {
 	height: 70px;
 	width: 70px;

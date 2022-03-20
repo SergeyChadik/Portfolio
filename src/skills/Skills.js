@@ -5,17 +5,28 @@ import { Skill } from './skill/Skill'
 import js from '../images/js.png'
 import css from '../images/css.png'
 import rect from '../images/react.png'
+import {Title} from "../common/components/title/Title";
+import {Slide} from "react-reveal";
 
 export function Skills() {
 	return (
-		<div className={style.skillsBlock}>
+		<div id="Skills" className={style.skillsBlock}>
 			<div className={`${styleContainer.container} ${style.skillsContainer}`}>
-				<h2 className={style.title}>Skills</h2>
+				<Slide bottom>
+					<Title text={'Skills'}/>
 				<div className={style.skills}>
-					<Skill img={js} title={'Js'} discription={'Lorem ipsum  lipsu grafickém designu a navrhování jako demonstrativní výplňový text při vytváření pracovních ukázek grafických návrhů (např. internetových stránek, rozvržení časopisů či všech druhů reklamních materiálů). Lipsum tak pracovně znázorňuje text v ukázkových maketách (tzv. mock-up) předtím, než bude do hotového návrhu vložen smysluplný obsah.'} />
-					<Skill img={css} title={'CSS'} discription={'Lorem ipsum  v grafickém designu a navrhování jako demonstrativní výplňový text při vytváření pracovních ukázek grafických návrhů (např. internetových stránek, rozvržení časopisů či všech druhů reklamních materiálů). Lipsum tak pracovně znázorňuje text v ukázkových maketách (tzv. mock-up) předtím, než bude do hotového návrhu vložen smysluplný obsah.'} />
-					<Skill img={rect} title={'React'} discription={'Lorem ipsum  užívaný v grafickém designu a navrhování jako demonstrativní výplňový text při vytváření pracovních ukázek grafických návrhů (např. internetových stránek, rozvržení časopisů či všech druhů reklamních materiálů). Lipsum tak pracovně znázorňuje text v ukázkových maketách (tzv. mock-up) předtím, než bude do hotového návrhu vložen smysluplný obsah.'} />
+					<Skill img={rect}
+						   title={'React'}
+						   discription={'React, Redux, Axios etc'} />
+					<Skill img={js}
+						   title={'Js'}
+						   discription={'JavaScript, TypeScript, HTML, CSS'} />
+					<Skill img={css}
+						   title={'CSS'}
+						   discription={'Sass,BEM'} />
+
 				</div>
+				</Slide>
 			</div>
 		</div>
 	);

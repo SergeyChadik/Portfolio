@@ -1,6 +1,7 @@
 .mainBlock {
 	height: 100vh;
 	background-color: #22242a;
+
 	background: url("../images/bg.jpg") 0 0 / cover no-repeat;
 }
 
@@ -8,11 +9,13 @@
 	width: 500px;
 	color: #FFFFFF;
 	//background-color: white;
-
-
 }
 .text span {
 	font-size: 20px;
+}
+.text span:nth-child(3) {
+	font-size: 30px;
+	font-weight: lighter;
 }
 
 .text h1 {
@@ -31,14 +34,14 @@
 .photo {
 	max-width: 344px;
 	height: 430px;
-	border: 3px solid #1bffff;
-	border-radius: 8px;
+	border: 5px solid #1bffff;
+	border-radius: 20px;
 	overflow: hidden;
 }
 
 .photo img {
 	width: 344px;
 	height: 430px;
-
 	object-fit: cover;
 }
+
